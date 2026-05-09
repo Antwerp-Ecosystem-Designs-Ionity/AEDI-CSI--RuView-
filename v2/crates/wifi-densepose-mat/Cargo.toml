@@ -35,7 +35,7 @@ tokio = { version = "1.35", features = ["rt", "sync", "time"] }
 async-trait = "0.1"
 
 # Web framework (REST API)
-axum = { version = "0.7", features = ["ws"] }
+axum = { version = "0.8", features = ["ws"] }
 futures-util = "0.3"
 
 # Error handling
