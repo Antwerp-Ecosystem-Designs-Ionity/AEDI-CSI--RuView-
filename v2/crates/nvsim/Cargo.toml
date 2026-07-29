@@ -37,7 +37,7 @@ tracing = { workspace = true }
 # the determinism commitment in plan §5. Default features off to drop the
 # `getrandom` OS-entropy path; nvsim seeds from a caller-supplied u64 so
 # OS entropy is never needed (this is also what makes nvsim WASM-ready).
-rand = { version = "0.8", default-features = false }
+rand = { version = "0.9", default-features = false }
 rand_chacha = { version = "0.3", default-features = false }
 
 # Pass 5: SHA-256 over concatenated MagFrame bytes is the simulator's
